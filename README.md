@@ -22,10 +22,13 @@
 
 magic-trace collects and displays high-resolution traces of what a process is doing. People have used it to:
 
-- figure out why an application running in production handles some requests slowly while simultaneously handling a sea of uninteresting requests,
-- look at what their code is *actually* doing instead of what they *think* it's doing,
-- get a history of what their application was doing before it crashed, instead of a mere stacktrace at that final instant,
-- ...and much more!
+01- Figure out why an application running in production handles some requests slowly while simultaneously handling a sea of uninteresting requests.
+
+02- Look at what their code is *actually* doing instead of what they *think* it's doing.
+
+03- Get a history of what their application was doing before it crashed, instead of a mere stacktrace at that final instant.
+
+...and much more!
 
 magic-trace:
 
